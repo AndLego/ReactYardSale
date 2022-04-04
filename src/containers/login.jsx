@@ -1,6 +1,5 @@
 import React from "react";
-import '../styles/login.scss';
-import '../styles/mobile.scss';
+import '../styles/styles.scss';
 
 const Login = () => {
   return (
@@ -32,7 +31,7 @@ const Login = () => {
           />
           <input
             type="submit"
-            defaultValue="Confirm new password"
+            value={"Confirm new password"}
             className="primary-button login-button"
           />
         </form>
