@@ -176,6 +176,9 @@
     border: 0.1rem solid var(--very-light-pink);
     border-radius: 0.6rem;
     padding: 2rem 2rem 0 2rem;
+    position: absolute;
+    top: 6rem;
+    right: 6.2rem;
 }
 .desktop-menu ul {
     list-style: none;
@@ -379,6 +382,10 @@ nav {
     color: var(--very-light-pink);
     font-size: var(--sm);
     font-weight: 100;
+}
+.navbar-email:hover {
+    cursor: pointer;
+    color: var(--hospital-green);
 }
 .navbar-shopping-cart {
     position: relative;

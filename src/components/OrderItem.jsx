@@ -1,4 +1,5 @@
 import React from "react";
+import close from '../assets/iconos/icon_close.png';
 
 const OrderItem = () => {
   return (
@@ -11,7 +12,7 @@ const OrderItem = () => {
       </figure>
       <p>Bike</p>
       <p>$ 120.00</p>
-      <img src="./iconos/icon_close.png" alt />
+      <img src={close} alt />
     </div>
   );
 };

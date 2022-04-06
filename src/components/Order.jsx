@@ -1,4 +1,5 @@
 import React from "react";
+import flechita from '@iconos/flechita.svg';
 
 const Order = () => {
   return (
@@ -12,7 +13,7 @@ const Order = () => {
               <span>6 articles</span>
             </p>
             <p>$ 560.00</p>
-            <img src="./iconos/flechita.svg" alt />
+            <img src={flechita} alt />
           </div>
         </div>
       </div>
