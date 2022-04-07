@@ -134,6 +134,7 @@
     grid-template-columns: repeat(auto-fill, 24rem);
     gap: 2.6rem;
     place-content: center;
+    padding-top: 4rem;
 }
 .product-card {
     width: 24rem;
@@ -173,6 +174,7 @@
 .desktop-menu {
     width: 15rem;
     height: auto;
+    background-color: var(--white);
     border: 0.1rem solid var(--very-light-pink);
     border-radius: 0.6rem;
     padding: 2rem 2rem 0 2rem;
